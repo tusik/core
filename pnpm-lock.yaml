@@ -110,8 +110,8 @@ importers:
         specifier: 0.3.2
         version: 0.3.2(@nestjs/common@10.3.9(class-transformer@0.5.1)(class-validator@0.13.2)(reflect-metadata@0.2.2)(rxjs@7.8.1))
       '@langchain/openai':
-        specifier: 0.0.34
-        version: 0.0.34(encoding@0.1.13)(langchain@0.2.4(@aws-sdk/client-s3@3.583.0)(@aws-sdk/credential-provider-node@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)))(axios@1.7.2)(encoding@0.1.13)(fast-xml-parser@4.2.5)(ignore@5.3.1)(ioredis@5.4.1)(mongodb@6.6.2(socks@2.8.3))(openai@4.47.3(encoding@0.1.13)))
+        specifier: 0.1.1
+        version: 0.1.1(encoding@0.1.13)(langchain@0.2.4(@aws-sdk/client-s3@3.583.0)(@aws-sdk/credential-provider-node@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)))(axios@1.7.2)(encoding@0.1.13)(fast-xml-parser@4.2.5)(ignore@5.3.1)(ioredis@5.4.1)(mongodb@6.6.2(socks@2.8.3))(openai@4.47.3(encoding@0.1.13)))
       '@mx-space/external':
         specifier: workspace:*
         version: link:../../packages/external
@@ -1485,12 +1485,8 @@ packages:
     resolution: {integrity: sha512-tMaKRFVewFn8crQwlbXGjT7hlMdX1yXHap1ebBx7Bb2C3C9AeZ+sXbX11m27yamypNlVVegwUcisw3YCaDkZJA==}
     engines: {node: '>=18'}
 
-  '@langchain/openai@0.0.34':
-    resolution: {integrity: sha512-M+CW4oXle5fdoz2T2SwdOef8pl3/1XmUx1vjn2mXUVM/128aO0l23FMF0SNBsAbRV6P+p/TuzjodchJbi0Ht/A==}
-    engines: {node: '>=18'}
-
-  '@langchain/openai@0.1.0':
-    resolution: {integrity: sha512-jm7U9oxXQ2N03q3+S9CzEAmMJaL2FqdAi4bOYdEBS0aAWAU29so35ZOs5i2uu4W29mK9oV9XS/4A5ggR1gOLEA==}
+  '@langchain/openai@0.1.1':
+    resolution: {integrity: sha512-0M7GOA7+dPMQATn8UrYBUp0tWxBJjsJEdRPf+MhDD4jdK70qfC6tBbB/lrT0HchVnz5GFE7az4EUtSh8LiUgzA==}
     engines: {node: '>=18'}
 
   '@langchain/textsplitters@0.0.2':
@@ -7991,18 +7987,7 @@ snapshots:
       - langchain
       - openai
 
-  '@langchain/openai@0.0.34(encoding@0.1.13)(langchain@0.2.4(@aws-sdk/client-s3@3.583.0)(@aws-sdk/credential-provider-node@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)))(axios@1.7.2)(encoding@0.1.13)(fast-xml-parser@4.2.5)(ignore@5.3.1)(ioredis@5.4.1)(mongodb@6.6.2(socks@2.8.3))(openai@4.47.3(encoding@0.1.13)))':
-    dependencies:
-      '@langchain/core': 0.2.5(langchain@0.2.4(@aws-sdk/client-s3@3.583.0)(@aws-sdk/credential-provider-node@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)))(axios@1.7.2)(encoding@0.1.13)(fast-xml-parser@4.2.5)(ignore@5.3.1)(ioredis@5.4.1)(mongodb@6.6.2(socks@2.8.3))(openai@4.47.3(encoding@0.1.13)))(openai@4.47.3(encoding@0.1.13))
-      js-tiktoken: 1.0.12
-      openai: 4.47.3(encoding@0.1.13)
-      zod: 3.23.8
-      zod-to-json-schema: 3.23.0(zod@3.23.8)
-    transitivePeerDependencies:
-      - encoding
-      - langchain
-
-  '@langchain/openai@0.1.0(encoding@0.1.13)(langchain@0.2.4(@aws-sdk/client-s3@3.583.0)(@aws-sdk/credential-provider-node@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)))(axios@1.7.2)(encoding@0.1.13)(fast-xml-parser@4.2.5)(ignore@5.3.1)(ioredis@5.4.1)(mongodb@6.6.2(socks@2.8.3))(openai@4.47.3(encoding@0.1.13)))':
+  '@langchain/openai@0.1.1(encoding@0.1.13)(langchain@0.2.4(@aws-sdk/client-s3@3.583.0)(@aws-sdk/credential-provider-node@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)))(axios@1.7.2)(encoding@0.1.13)(fast-xml-parser@4.2.5)(ignore@5.3.1)(ioredis@5.4.1)(mongodb@6.6.2(socks@2.8.3))(openai@4.47.3(encoding@0.1.13)))':
     dependencies:
       '@langchain/core': 0.2.5(langchain@0.2.4(@aws-sdk/client-s3@3.583.0)(@aws-sdk/credential-provider-node@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)))(axios@1.7.2)(encoding@0.1.13)(fast-xml-parser@4.2.5)(ignore@5.3.1)(ioredis@5.4.1)(mongodb@6.6.2(socks@2.8.3))(openai@4.47.3(encoding@0.1.13)))(openai@4.47.3(encoding@0.1.13))
       js-tiktoken: 1.0.12
@@ -11473,7 +11458,7 @@ snapshots:
   langchain@0.2.4(@aws-sdk/client-s3@3.583.0)(@aws-sdk/credential-provider-node@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)))(axios@1.7.2)(encoding@0.1.13)(fast-xml-parser@4.2.5)(ignore@5.3.1)(ioredis@5.4.1)(mongodb@6.6.2(socks@2.8.3))(openai@4.47.3(encoding@0.1.13)):
     dependencies:
       '@langchain/core': 0.2.5(langchain@0.2.4(@aws-sdk/client-s3@3.583.0)(@aws-sdk/credential-provider-node@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)))(axios@1.7.2)(encoding@0.1.13)(fast-xml-parser@4.2.5)(ignore@5.3.1)(ioredis@5.4.1)(mongodb@6.6.2(socks@2.8.3))(openai@4.47.3(encoding@0.1.13)))(openai@4.47.3(encoding@0.1.13))
-      '@langchain/openai': 0.1.0(encoding@0.1.13)(langchain@0.2.4(@aws-sdk/client-s3@3.583.0)(@aws-sdk/credential-provider-node@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)))(axios@1.7.2)(encoding@0.1.13)(fast-xml-parser@4.2.5)(ignore@5.3.1)(ioredis@5.4.1)(mongodb@6.6.2(socks@2.8.3))(openai@4.47.3(encoding@0.1.13)))
+      '@langchain/openai': 0.1.1(encoding@0.1.13)(langchain@0.2.4(@aws-sdk/client-s3@3.583.0)(@aws-sdk/credential-provider-node@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)))(axios@1.7.2)(encoding@0.1.13)(fast-xml-parser@4.2.5)(ignore@5.3.1)(ioredis@5.4.1)(mongodb@6.6.2(socks@2.8.3))(openai@4.47.3(encoding@0.1.13)))
       '@langchain/textsplitters': 0.0.2(langchain@0.2.4(@aws-sdk/client-s3@3.583.0)(@aws-sdk/credential-provider-node@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.583.0(@aws-sdk/client-sso-oidc@3.583.0)))(axios@1.7.2)(encoding@0.1.13)(fast-xml-parser@4.2.5)(ignore@5.3.1)(ioredis@5.4.1)(mongodb@6.6.2(socks@2.8.3))(openai@4.47.3(encoding@0.1.13)))(openai@4.47.3(encoding@0.1.13))
       binary-extensions: 2.2.0
       js-tiktoken: 1.0.12
